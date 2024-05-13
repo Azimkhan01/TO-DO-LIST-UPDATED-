@@ -54,6 +54,7 @@ function updated(){
         document.getElementById("error").style.cssText = 'display:flex'
         setTimeout(() => {
             document.getElementById("error").style.cssText = 'display:none'
+            document.getElementById("prompt").style.cssText = 'display:none'
         },2000);
     }
 }
